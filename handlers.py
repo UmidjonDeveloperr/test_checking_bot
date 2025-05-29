@@ -101,7 +101,7 @@ async def admin_test(message: Message, state: FSMContext):
     #     return
 
     telegram_id = message.from_user.id + 4321
-    url = f"https://exam-elf.web.app?telegram_id={telegram_id}"
+    url = f"https://dtm-check.web.app?telegram_id={telegram_id}"
 
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -132,7 +132,7 @@ async def start_test(message: Message, state: FSMContext):
     #     return
 
     telegram_id = message.from_user.id + 4321
-    url = f"https://exam-elf.web.app?telegram_id={telegram_id}"
+    url = f"https://dtm-check.web.app?telegram_id={telegram_id}"
 
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
