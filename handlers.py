@@ -21,8 +21,8 @@ router = Router()
 logger = logging.getLogger(__name__)
 
 def is_admin(user_id: int):
-    #return user_id in ADMIN_IDS
-    return user_id == 5597902483
+    return user_id in ADMIN_IDS
+    #return user_id == 5597902483
 
 # ADMIN keyboard
 def get_admin_keyboard() -> ReplyKeyboardMarkup:
